@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://g-chat-frontend-4mwl.onrender.com",
+    origin: "http://localhost:5173",
     credentials: true,
   })
 );
